@@ -48,7 +48,6 @@ public class TwoSum {
      */
     public static void twoSumSecond(int[] nums, int target){
         Arrays.sort(nums);
-
         int li = 0;
         int ri = nums.length-1;
 
@@ -72,25 +71,30 @@ public class TwoSum {
      */
     public static void twoSumThird(int[] nums, int target){
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
-
-        for(int i:nums){
-            map.put(i, i);
+        System.out.println(nums.length);
+        for(int i=0;i<nums.length;i++){
+            System.out.println("i: "+i);
+            map.put(nums[i], i);
         }
+        System.out.println(map);
         Set<Integer> resultSet = new HashSet<Integer>();
-        for(int i:nums){
-            int otherTar = target - i;
-            if(map.containsKey(otherTar) && target != 2*i && !resultSet.contains(i)){
-                resultSet.add(i);
+        for(int j=0;j<nums.length-1;j++){
+            int otherTar = target - nums[j];
+            if(map.containsKey(otherTar) && target != 2*nums[j] && !resultSet.contains(nums[j])){
+                resultSet.add(nums[j]);
                 resultSet.add(otherTar);
-                System.out.println("第一个数为： "+i +", 第二个数为： "+otherTar);
+//                return new int[]{j, map.get(otherTar)};
+                System.out.println("第一个数索引： "+j +", 第二个数索引： "+map.get(otherTar));
             }
         }
     }
 
     public static void main(String[] args){
-        int[] enmus = new int[]{2, 7,11, 15};
-        int target = 9;
+        int[] enmus = new int[]{3, 2, 4};
+        int target = 6;
 
-        twoSum(enmus, target);
+//        twoSum(enmus, target);
+
+        twoSumThird(enmus, target);
     }
 }
