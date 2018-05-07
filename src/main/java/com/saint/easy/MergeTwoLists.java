@@ -10,6 +10,13 @@ import java.util.List;
  输出：1->1->2->3->4->4
  */
 public class MergeTwoLists {
+
+    /**
+     * 解法：使用一个index作为新的node，并且当前作用的节点
+     * @param a
+     * @param b
+     * @return
+     */
     public static ListNode mergeTwoLists(ListNode a, ListNode b) {
         if (a == null)
             return b;
@@ -40,6 +47,7 @@ public class MergeTwoLists {
                 currentB = currentB.next;
             }
         }
+        //跳出循环是有一个列表循环完成，直接将另一个循环未完成的节点，接入到末尾
         index.next = (currentA == null) ? currentB : currentA;
 
         return head;
