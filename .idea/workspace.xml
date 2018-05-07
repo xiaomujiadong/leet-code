@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c28be1e-a75c-4ca9-bd1a-0ba50f9321f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/saint/easy/StrStr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/saint/easy/RemoveDuplicates.class" afterPath="$PROJECT_DIR$/target/classes/com/saint/easy/RemoveDuplicates.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/saint/easy/RemoveElement.java" afterPath="$PROJECT_DIR$/src/main/java/com/saint/easy/RemoveElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/saint/easy/SearchInsert.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +24,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StrStr.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StrStr.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/saint/easy/StrStr.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="185">
               <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchInsert.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/saint/easy/SearchInsert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -58,6 +66,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/saint/easy/RemoveElement.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/saint/easy/StrStr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/saint/easy/SearchInsert.java" />
       </list>
     </option>
   </component>
@@ -148,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StrStr">
+  <component name="RunManager" selected="Application.SearchInsert">
     <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -157,6 +166,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.saint.easy.RemoveElement" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="leet-code" />
+      <envs />
+    </configuration>
+    <configuration name="SearchInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.saint.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.saint.easy.SearchInsert" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -268,14 +296,16 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.RemoveElement" />
       <item index="1" class="java.lang.String" itemvalue="Application.StrStr" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SearchInsert" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.StrStr" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RemoveElement" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.SearchInsert" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StrStr" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RemoveElement" />
       </list>
     </recent_temporary>
   </component>
@@ -292,12 +322,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525705985002</updated>
-      <workItem from="1525705986391" duration="3839000" />
+      <workItem from="1525705986391" duration="6224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3839000" />
+    <option name="totallyTimeSpent" value="6224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -355,6 +385,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/saint/easy/SearchInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
