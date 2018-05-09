@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd3475f6-4723-49d5-9fa3-98f83feda075" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/saint/easy/AddBinary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/saint/easy/MySqrt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/saint/easy/PlusOne.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/saint/easy/CountSegments.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/saint/easy/FirstUniqChar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/saint/easy/RepeatedSubstringPattern.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,12 +69,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySqrt.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MySqrt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/saint/easy/MySqrt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
               <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstUniqChar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/saint/easy/FirstUniqChar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountSegments.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/saint/easy/CountSegments.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RepeatedSubstringPattern.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/saint/easy/RepeatedSubstringPattern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,6 +139,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/saint/easy/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/saint/easy/AddBinary.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/saint/easy/MySqrt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/saint/easy/FirstUniqChar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/saint/easy/CountSegments.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/saint/easy/RepeatedSubstringPattern.java" />
       </list>
     </option>
   </component>
@@ -193,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MySqrt">
+  <component name="RunManager" selected="Application.RepeatedSubstringPattern">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -213,14 +250,14 @@
       <module name="leet-code" />
       <envs />
     </configuration>
-    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CountSegments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.saint.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.saint.easy.LengthOfLastWord" />
+      <option name="MAIN_CLASS_NAME" value="com.saint.easy.CountSegments" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -232,14 +269,14 @@
       <module name="leet-code" />
       <envs />
     </configuration>
-    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstUniqChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.saint.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.saint.easy.MaxSubArray" />
+      <option name="MAIN_CLASS_NAME" value="com.saint.easy.FirstUniqChar" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -270,14 +307,14 @@
       <module name="leet-code" />
       <envs />
     </configuration>
-    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RepeatedSubstringPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.saint.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.saint.easy.PlusOne" />
+      <option name="MAIN_CLASS_NAME" value="com.saint.easy.RepeatedSubstringPattern" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -488,19 +525,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MaxSubArray" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LengthOfLastWord" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PlusOne" />
-      <item index="3" class="java.lang.String" itemvalue="Application.AddBinary" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MySqrt" />
+      <item index="0" class="java.lang.String" itemvalue="Application.AddBinary" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MySqrt" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FirstUniqChar" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CountSegments" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RepeatedSubstringPattern" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MySqrt" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AddBinary" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PlusOne" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LengthOfLastWord" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MaxSubArray" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RepeatedSubstringPattern" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CountSegments" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FirstUniqChar" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MySqrt" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AddBinary" />
       </list>
     </recent_temporary>
   </component>
@@ -521,7 +558,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8291000" />
+    <option name="totallyTimeSpent" value="16871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -603,6 +640,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="64" column="51" lean-forward="false" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+          <folding>
+            <element signature="e#1605#1606#0" expanded="false" />
+            <element signature="e#1666#1667#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -641,6 +682,34 @@
         <state relative-caret-position="230">
           <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/saint/easy/FirstUniqChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/saint/easy/CountSegments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/saint/easy/RepeatedSubstringPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
