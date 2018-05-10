@@ -1,4 +1,4 @@
-package com.saint.easy;
+package com.saint.easy.string;
 
 public class CountSegments {
     public static int countSegments(String s) {

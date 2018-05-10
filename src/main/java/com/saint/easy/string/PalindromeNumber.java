@@ -1,4 +1,4 @@
-package com.saint.easy;
+package com.saint.easy.string;
 
 public class PalindromeNumber {
     public static boolean isPalindrome(int x) {

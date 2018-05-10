@@ -1,4 +1,4 @@
-package com.saint.easy;
+package com.saint.easy.string;
 
 /**
  * Created by wdcao on 2018/5/8.

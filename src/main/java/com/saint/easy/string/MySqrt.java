@@ -1,4 +1,4 @@
-package com.saint.easy;
+package com.saint.easy.string;
 
 public class MySqrt {
     public static int mySqrt(int x) {
