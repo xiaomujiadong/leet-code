@@ -1,4 +1,4 @@
-package com.saint.easy;
+package com.saint.easy.string;
 
 public class StrStr {
     public static int strStr(String haystack, String needle) {

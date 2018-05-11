@@ -1,4 +1,4 @@
-package com.saint.easy;
+package com.saint.easy.string;
 
 public class AddBinary {
     public static String addBinary(String a, String b) {
