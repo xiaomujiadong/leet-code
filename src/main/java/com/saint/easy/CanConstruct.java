@@ -16,12 +16,36 @@ package com.saint.easy;
 public class CanConstruct {
     public static boolean canConstruct(String ransomNote, String magazine) {
 
+        if(ransomNote.equals(magazine) || ransomNote.equals("")){
+            return true;
+        }
+
+        char[] rc = ransomNote.toCharArray();
+        char[] mc = magazine.toCharArray();
+
+        int ri = 0;
+        int mi = 0;
+
+        while((mi+1)<magazine.length() ){
+
+            if(rc[ri] != mc[mi]){
+                mi = mi - ri +1;
+                ri = 0;
+            }else{
+                if((ri+1)==ransomNote.length()){
+                    return true;
+                }
+                ++ri;
+                ++mi;
+            }
+        }
+
         return false;
     }
 
     public static  void main(String[] args){
-        String ransomNote = "";
-        String magazine = "";
+        String ransomNote = "bg";
+        String magazine = "efjbdfbdgfjhhaiigfhbaejahgfbbgbjagbddfgdiaigdadhcfcj";
         System.out.println("result: "+canConstruct(ransomNote, magazine));
     }
 }
