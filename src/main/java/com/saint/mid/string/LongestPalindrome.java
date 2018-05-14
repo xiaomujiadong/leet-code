@@ -1,4 +1,4 @@
-package com.saint;
+package com.saint.mid.string;
 
 /**
  * 题目描述
@@ -19,8 +19,6 @@ package com.saint;
  回文字符串分为两种
  第一种：abccba
  第二种：abcacba
-
-
  */
 public class LongestPalindrome {
     private static int lo;
@@ -50,7 +48,6 @@ public class LongestPalindrome {
                 --startRight;
                 break;
             }
-
             --startLeft;
             ++startRight;
         }
