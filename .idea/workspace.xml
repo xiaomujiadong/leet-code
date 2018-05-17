@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd3475f6-4723-49d5-9fa3-98f83feda075" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/saint/mid/string/MyAtoi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/saint/mid/string/CompareVersion.java" afterPath="$PROJECT_DIR$/src/main/java/com/saint/mid/string/CompareVersion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/saint/mid/string/MyAtoi.java" afterPath="$PROJECT_DIR$/src/main/java/com/saint/mid/string/MyAtoi.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +50,8 @@
       <file leaf-file-name="MyAtoi.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/saint/mid/string/MyAtoi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="76" column="39" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="76" selection-end-column="39" />
+            <state relative-caret-position="322">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -550,12 +549,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525747027785</updated>
-      <workItem from="1526568954466" duration="4183000" />
+      <workItem from="1526568954466" duration="4458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14993000" />
+    <option name="totallyTimeSpent" value="15268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -863,8 +862,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/saint/mid/string/MyAtoi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="76" column="39" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="76" selection-end-column="39" />
+        <state relative-caret-position="322">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="16" selection-end-column="21" />
           <folding />
         </state>
       </provider>

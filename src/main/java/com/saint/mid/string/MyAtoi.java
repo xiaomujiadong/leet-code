@@ -12,6 +12,9 @@ public class MyAtoi {
             if(!flag){
                 if(c == '+' || c=='-' || ('0'<=c && c<='9')){
                     start = i;
+                    if(i==str.length()-1){
+                        end = i+1;
+                    }
                     flag = true;
                 }else if(c == ' '){
                     continue;
@@ -45,7 +48,7 @@ public class MyAtoi {
             }else if(newStr.length()==minV.length()){
                 for(int i=1;i<newStr.length();i++){
                     if(newStr.charAt(i) > minV.charAt(i)){
-                        return 0;
+                        return Integer.MIN_VALUE;
                     }
                 }
             }
@@ -66,19 +69,17 @@ public class MyAtoi {
         }else if(newStr.length() == maxV.length()){
             for(int i=1;i<newStr.length();i++){
                 if(newStr.charAt(i) > maxV.charAt(i)){
-                    return 0;
+                    return Integer.MAX_VALUE;
                 }
             }
         }
-
-
         System.out.println("test: "+str.substring(start, end));
 
         return Integer.valueOf(newStr);
     }
 
     public static void main(String[] args){
-        String str = "words and 987";
+        String str = "1";
         System.out.println("result: "+myAtoi(str));
     }
 }
