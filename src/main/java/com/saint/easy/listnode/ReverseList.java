@@ -42,8 +42,21 @@ public class ReverseList {
 
 //        System.out.println("result: "+reverseList(listNode1));
 
-        System.out.println("result: "+reverseList2(listNode1));
+        System.out.println("result: "+reverseList3(listNode1));
     }
+
+    public static ListNode reverseList3(ListNode head){
+        ListNode newList = null;
+        ListNode listNode;
+        while(head!=null){
+            listNode = head.next;
+            head.next = newList;
+            newList = head;
+            head = listNode;
+        }
+        return newList;
+    }
+
 
     public static ListNode reverseList2(ListNode head) {
         ListNode listNode = null;
