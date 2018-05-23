@@ -21,6 +21,10 @@ import com.saint.other.ListNode;
  向右旋转 2 步: 1->2->0->NULL
  向右旋转 3 步: 0->1->2->NULL
  向右旋转 4 步: 2->0->1->NULL
+
+
+ 解题思路，先计算整个链表的长度，在计算的同时，把链表变成环链表
+
  */
 public class RotateRight {
 
@@ -30,47 +34,38 @@ public class RotateRight {
             return head;
         }
 
-        ListNode start = head;
+        ListNode temp = head;
 
         int len = 0;
-        while(head!=null){
-            if(head.next == null){
-                head.next = start;
+        while(temp!=null){
+            ++len;
+            if(temp.next == null){
+                temp.next = head;
                 break;
             }
-            ++len;
-            head = head.next;
+
+            temp = temp.next;
         }
 
-        int times = 1;
-        int loop = len * times-k;
+        int n = len - k % len;
 
-        while(loop<0){
-            times = times +1;
-            loop = len * times - k;
+        while(n!=0){
+            temp = temp.next;
+            --n;
         }
+        head = temp.next;
+        temp.next = null;
 
-        if(loop == 0){
-            head.next = null;
-            return start;
-        }
-
-        while(loop!=0){
-            start = start.next;
-            --loop;
-        }
-        ListNode newList = start.next;
-        start.next = null;
-
-        return newList;
+        return head;
     }
 
     public static void main(String[] args){
-        ListNode listNode1 = new ListNode(1);
-        ListNode listNode2 = new ListNode(2);
+        ListNode listNode1 = new ListNode(0);
+        ListNode listNode2 = new ListNode(1);
         listNode1.next = listNode2;
-        ListNode listNode3 = new ListNode(6);
+        ListNode listNode3 = new ListNode(2);
         listNode2.next = listNode3;
+
         ListNode listNode4 = new ListNode(9);
 //        listNode3.next = listNode4;
         ListNode listNode5 = new ListNode(4);
@@ -81,6 +76,7 @@ public class RotateRight {
         listNode6.next = listNode7;
 
         int k = 4;
+        System.out.println("result: "+listNode1);
         System.out.println("result: "+rotateRight(listNode1, k));
     }
 }
